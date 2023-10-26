@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #4d4d4d;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1768,6 +1768,7 @@ input, select, textarea {
 		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
+		font-size: 50px;
 	}
 
 	header h2 + p {
@@ -2049,7 +2050,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/* background: url("images/overlay.png"); */
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2058,7 +2059,7 @@ input, select, textarea {
 			opacity: 0.5;
 			position: absolute;
 			top: 0;
-			width: 100%;
+			width: 86%;
 		}
 
 		.image.thumb {
@@ -2088,6 +2089,7 @@ input, select, textarea {
 				top: 50%;
 				white-space: nowrap;
 			}
+
 
 			.image.thumb:hover:after {
 				opacity: 1.0;
@@ -2130,8 +2132,8 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
-    		height: 335px;
+				width: 80%;
+    		height: 50%;
 			}
 
 		.image.avatar {
@@ -2208,6 +2210,10 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.5em;
 			}
+
+	.fa-linkedin{
+		font-size: 26px;
+	}
 
 /* Labeled Icons */
 
@@ -2592,9 +2598,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #f7c17e;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/pomp.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2987,6 +2993,8 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+				background-color: #f5ece6;
+				color: #4d4d4d;
 			}
 
 	}
@@ -3078,8 +3086,8 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-color: #f5d3ba;
+				background-image: url("images/overlay.png"), url("../../images/pomp.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
